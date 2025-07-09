@@ -26,6 +26,10 @@ Most tutorials cover the fundamentals. This repo is for the *curious*—those wh
 Each folder or file is self-contained with explanations and code samples.  
 Feel free to clone, fork, and experiment!
 
+## ***Update***
+
+Stopping to work on this cuz i'm making something like imDB
+
 ---
 
 **Happy learning and hacking!**
