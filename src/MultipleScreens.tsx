@@ -3,6 +3,7 @@ import { useState } from "react";
 /*So due to the single threaded nature of javascript  and countering  the race of tasks first it executes one ater another*/
 
 const App = () => {
+    /* letting the parent control the states is probably a good idea soi that you can have some peace of mind */
   const [one, setOne] = useState<boolean>(true);
   const [two, setTwo] = useState<boolean>(false);
 
