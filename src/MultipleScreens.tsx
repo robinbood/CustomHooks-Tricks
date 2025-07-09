@@ -7,6 +7,8 @@ const App = () => {
   const [one, setOne] = useState<boolean>(true);
   const [two, setTwo] = useState<boolean>(false);
 
+  // Which is why we set the two  true here before setting the current false  cuz
+  //if we set one false first..we won't be able to proceed to the next screen becyuz of the buttton
   const handler = () => {
     setTwo(true);
     setOne(false);
